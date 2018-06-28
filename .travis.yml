@@ -4,5 +4,6 @@ python:
 cache: pip
 install:
   - pip install bs4
+  - pip install requests
 script:
   - python PyouPlay/pyouplay.py
