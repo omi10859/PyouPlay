@@ -1,9 +1,8 @@
 language: python
 python:
   - "3.6"
-
+cache: pip
 install:
-  - pip install bs4
-
+  - pip install -r requirements.txt
 script:
-    - Pyouplay
+  - python tests.py
