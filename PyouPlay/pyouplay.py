@@ -15,3 +15,5 @@ def PyouPlay(search):
     return (links['href'])
     for vid in link:
         return ('https://www.youtube.com' + vid['href'])
+
+print('lol')

@@ -1,9 +1,9 @@
- language: python
-  python:
-    - "3.6"
-
+language: python
+python:
+  - "3.6"
+cache: pip
 install:
   - pip install bs4
-
+  - pip install requests
 script:
-    - Pyouplay
+  - python PyouPlay/pyouplay.py

@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
-import pyouplay
+import PyouPlay.pyouplay
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-setuptools.setup(
+setup(
     name="Pyoutube",
     version="0.1",
     author="Omkar Yadav",
@@ -16,10 +16,10 @@ setuptools.setup(
     keywords='youtube',
     url="https://github.com/omi10859/PyouPlay",
     packages=find_packages),
-    classifiers=(
+classifiers=(
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 2.7  ',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
@@ -27,9 +27,9 @@ setuptools.setup(
         'Programming Language :: Python :: 3.6',
         "Operating System :: OS Independent",
     ),
-    install_requires=[
-	'beautifulsoup4'
-	],
-    include_package_data=True,
-    zip_safe=False,
+install_requires=[
+    'beautifulsoup4'
+    ],
+include_package_data=True,
+zip_safe=False
 )
