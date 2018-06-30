@@ -1,19 +1,16 @@
 from setuptools import setup, find_packages
 import PyouPlay.get
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
-
 setup(
     name='PyouPlay',
-    version='0.1',
+    version='0.1.2',
     author="Omkar Yadav",
     author_email="omkar10859@gmail.com",
     packages=['PyouPlay'],
     scripts=['PyouPlay/get.py'],
     url="https://github.com/omi10859/PyouPlay",
-    description="This is a simple python package when passed with a search argument returns link to video.",
-    long_description=long_description,
+    description="This is a simple python package when passed with a search argument returns youtube video link.",
+    long_description="A simple package to get youtube video links just by passing a search argument it can give a top one link and top 20 links.",
     install_requires=[
         "bs4>=0.0.1",
         "beautifulsoup4>=4.6.0",
