@@ -6,4 +6,4 @@ install:
   - pip install bs4
   - pip install requests
 script:
-  - python PyouPlay/pyouplay.py
+  - python PyouPlay/get.py
