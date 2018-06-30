@@ -1,7 +1,7 @@
 Metadata-Version: 1.0
 Name: PyouPlay
-Version: 0.1.2
-Summary: This is a simple python package when passed with a search argument returns youtube video link.
+Version: 0.1.3
+Summary: This is a simple python package when passed with a search argument, returns youtube video link.
 Home-page: https://github.com/omi10859/PyouPlay
 Author: Omkar Yadav
 Author-email: omkar10859@gmail.com
