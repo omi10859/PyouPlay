@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='PyouPlay',
-    version='0.1.3',
+    version='0.2.0',
     author="Omkar Yadav",
     author_email="omkar10859@gmail.com",
     packages=['PyouPlay'],
@@ -19,7 +19,7 @@ setup(
     ],
     scripts=['PyouPlay/get.py'],
     url="https://github.com/omi10859/PyouPlay",
-    description="This is a simple python package when passed with a search argument, returns youtube video link.",
+    description="This is a simple python package when passed with a search argument, returns youtube video link with title.",
     long_description="A simple package to get youtube video links just by passing a search argument it can give a top one link and top 20 links.",
 
 )
